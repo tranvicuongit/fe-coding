@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FF Layout</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="ff">
+    <div class="ff-wrapper">
+        <header class="ff-header b-lazy"
+            data-src="http://vinhthinhbiostadt.com/gui/frontend/templates/default/images/bg_header.png">
+            <div class="inner">
+                <div class="top container">
+                    <a href="javascript:" class="left">
+                        <div class="logo">
+                            <img src="http://vinhthinhbiostadt.com/gui/frontend/templates/default/images/logo_vinhthinh.png"
+                                alt="">
+                        </div>
+                        <div class="slogan">
+                            <img src="assets/imgs/slogan.png" alt="" srcset="">
+                        </div>
+                    </a>
+                    <div class="right">
+                        <div class="social">
+                            <a href="javascript:" class="item">
+                                <img src="assets/imgs/social-1.png" alt="">
+                            </a>
+                            <a href="javascript:" class="item">
+                                <img src="assets/imgs/social-2.png" alt="">
+                            </a>
+                            <a href="javascript:" class="item">
+                                <img src="assets/imgs/social-3.png" alt="">
+                            </a>
+                            <a href="javascript:" class="item">
+                                <img src="assets/imgs/social-4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="verify">
+                            <img src="http://vinhthinhbiostadt.com/gui/frontend/templates/default/images/logo_gcn_vinhthinh.png"
+                                alt="">
+                        </div>
+                        <div class="input">
+                            <a href="javascript:" class="language">
+                                <img src="assets/imgs/en.png" alt="">
+                                <span>English</span>
+                            </a>
+                            <div class="search">
+                                <select name="search_type" id="ddlSearchType">
+                                    <option value="1">Sản phẩm</option>
+                                    <option value="2">Tin tức</option>
+                                    <option value="3">Thông số kỹ thuật</option>
+                                    <option value="4">Ứng dụng sản phẩm</option>
+                                </select>
+                                <div class="input">
+                                    <input type="text" placeholder="Nhập từ khóa cần tìm" id="txtSearch">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu" style="background-image: url(assets/imgs/bg_title.png)" >
+                    <div class="menu-top container" id="main-menu">
+                        <div class="links">
+                            <div class="link">
+                                <a href="javascript:">Trang chủ</a>
+                            </div>
+                            <div href="javascript:" class="link">
+                                <a href="javascript:">Giới thiệu</a>
+                            </div>
+                            <div href="javascript:" class="link">
+                                <a href="javascript:">Tài liệu</a>
+                                <i class="fa fa-caret-down"></i>
+                                <div class="sub-links">
+                                    <div class="item">
+                                        <a href="javascript:">Kỹ thuật nuôi</a>
+                                        <!-- <i class="fa fa-caret-right"></i>
+
+                                        <div class="sub-links">
+                                            <div class="item" href="javascript:">
+                                                <a href="javascript:">THỨC ĂN CHO TÔM GIỐNG</a>
+                                            </div>
+                                            <div class="item" href="javascript:">
+                                                <a href="javascript:">THỨC ĂN CHO TÔM MẸ</a>
+                                            </div>
+                                            <div class="item" href="javascript:">
+                                                <a href="javascript:">THỨC ĂN CHO TÔM CHA</a>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:">Phòng trị bệnh</a>
+                                    </div>
+                                    <div href="javascript:" class="item">
+                                        <a href="javascript:">Quản lý môi trường</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div href="javascript:" class="link">
+                                <a href="javascript:">Tin tức</a>
+                                <i class="fa fa-caret-down"></i>
+                                <div class="sub-links">
+                                    <div class="item">
+                                        <a href="javascript:">Cá cảnh</a>
+                                        <!-- <i class="fa fa-caret-right"></i>
+
+                                        <div class="sub-links">
+                                            <div class="item" href="javascript:">
+                                                <a href="javascript:">THỨC ĂN CHO TÔM GIỐNG</a>
+                                            </div>
+                                            <div class="item" href="javascript:">
+                                                <a href="javascript:">THỨC ĂN CHO TÔM MẸ</a>
+                                            </div>
+                                            <div class="item" href="javascript:">
+                                                <a href="javascript:">THỨC ĂN CHO TÔM CHA</a>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:">Sản phẩm hóa chất liên quan</a>
+                                    </div>
+                                    <div href="javascript:" class="item">
+                                        <a href="javascript:">Thị trường tiêu thụ</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div href="javascript:" class="link">
+                                <a href="javascript:">Sản phẩm</a>                                
+                            </div>
+                            <div href="javascript:" class="link">
+                                <a href="javascript:">Chính sách</a>                                
+                            </div>
+                            <div href="javascript:" class="link">
+                                <a href="javascript:">Liên hệ, góp ý</a>                                
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="menu-sub">
+                        <div class="inner container">
+                            <div class="item">
+                                <a href="javascript:">
+                                    SẢN XUẤT TÔM GIỐNG
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="javascript:">
+                                    SẢN XUẤT TÔM GIỐNG 2
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="javascript:">
+                                    SẢN XUẤT TÔM GIỐNG 3
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="javascript:">
+                                    SẢN XUẤT TÔM GIỐNG 3
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="javascript:">
+                                    SẢN XUẤT TÔM GIỐNG 4
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="javascript:">
+                                    SẢN XUẤT TÔM GIỐNG 5
+                                </a>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="menu-mb">
+                        <div class="inner container">
+                            <a href="javascript:" class="btn-toogle-menu">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                            <div class="spacer"></div>
+                            <a href="javascript:" class="logo-mb">
+                                <img src="http://vinhthinhbiostadt.com/gui/frontend/templates/default/images/logo_vinhthinh.png"
+                                    alt="">
+                            </a>
+                            <div class="spacer"></div>
+                            <a href="javascript:" class="btn-search-menu">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="ff-content">
+            <div class="inner container">
+                <div class="row">
+                    <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12 main">
+                        <div class="slide">
+                            <div class="owl-carousel owl-theme single-slide">
+                                <div class="item">
+                                    <img class="owl-lazy"
+                                        data-src="http://vinhthinhbiostadt.com/upload/images/banner/BMP-web.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="owl-lazy"
+                                        data-src="http://vinhthinhbiostadt.com/upload/images/banner/slide1.png" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="owl-lazy"
+                                        data-src="http://vinhthinhbiostadt.com/upload/images/banner/slide2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row margin-t-24 products-detail">
+                            <div class="col-md-12">
+                                <div class="ff-box">
+                                    <div class="body padding-8 ">
+                                        <div class="p-header row">
+                                            <div class="p-image col-md-6 zoom" id="ex1">
+                                                <img
+                                                    src="http://vinhthinhbiostadt.com/upload/images/SPG/540x420/2/EZ-Larva-1-2.png" />
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h1 class="p-tt">EZ LARVA</h1>
+
+                                                <p class="desc">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis esse
+                                                    ducimus ratione. Magni cumque ipsa iste quia quas veniam sapiente
+                                                    nostrum nobis, minus delectus consectetur, aut reprehenderit ab
+                                                    recusandae laudantium.
+                                                </p>
+
+                                                <div class="button">
+                                                    <a class="btn btn-success" href="javascript:" style="color: white">
+                                                        <i class="fa fa-phone"></i>
+                                                        <span>0909 123 456</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 p-post">
+                                                <article>
+                                                    <span style="font-size:14px;"><span
+                                                            style="color:#ff0000;"><strong>1. Lợi ích đem
+                                                                lại</strong></span></span><br>
+                                                    <br>
+                                                    <ul>
+                                                        <li>
+                                                            <span style="font-size:14px;">Nâng cao tốc độ tăng trưởng và
+                                                                sức khỏe ấu trùng.</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Thay thế &gt; 70% tảo
+                                                                tươi.</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Đảm bảo tỉ lệ sống &gt;
+                                                                70%</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Chứa Vpak – các tinh chất tự
+                                                                nhiên giúp tăng cường sức đề kháng.</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Không làm hôi nước, giảm thay
+                                                                và lọc nước.</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Nâng cao khả năng tiêu
+                                                                hóa.</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Dễ dàng phân tán trong các
+                                                                tầng nước</span></li>
+                                                        <li>
+                                                            <span style="font-size:14px;">Chứa các vi sinh vật có lợi
+                                                                giúp hỗ trợ tiêu hóa, cải thiện chất lượng nước,
+                                                                kiểm&nbsp;<span style="font-size:14px;">soát mầm
+                                                                    bệnh.</span></span></li>
+                                                    </ul>
+                                                    <div>
+                                                        <span style="font-size:14px;"><span
+                                                                style="color:#ff0000;"><strong>2. Thành phần dinh
+                                                                    dưỡng:</strong></span></span><br>
+                                                        <br>
+                                                        <table border="1" cellpadding="1" cellspacing="1"
+                                                            style="width: auto;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <strong>Thành phần</strong></td>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <span style="font-size:14px;"><strong>Trọng
+                                                                                lượng ướt</strong></span></td>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <span style="font-size:14px;"><strong>Trọng
+                                                                                lượng khô</strong></span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="width: auto;">
+                                                                        <span style="font-size:14px;">Protein (tối
+                                                                            thiểu)</span></td>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <span style="font-size:14px;">11%</span></td>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <span style="font-size:14px;">36.7%</span></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td style="width: auto;">
+                                                                        <span style="font-size:14px;">Chất béo (tối
+                                                                            thiểu)</span></td>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <span style="font-size:14px;">6%</span></td>
+                                                                    <td style="text-align: center; width: auto;">
+                                                                        <span style="font-size:14px;">20%</span></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <br>
+                                                        <span style="font-size:14px;"><span
+                                                                style="color:#ff0000;"><strong>3. Liều
+                                                                    dùng</strong></span><br>
+                                                            <br>
+                                                            <img alt=""
+                                                                src="http://vinhthinhbiostadt.com/upload/images/SPG/EZ-Larva-lieu-dung.png"
+                                                                class="img-responsive"></span><br>
+                                                        &nbsp;
+                                                    </div>
+                                                    <span style="font-size:14px;"><span
+                                                            style="color:#ff0000;"><strong>4. Cách sử
+                                                                dụng:</strong></span><br>
+                                                        <br>
+                                                        Lắc đều và đong một lượng thức ăn vừa đủ vào cốc thủy tinh<br>
+                                                        Thêm một ít nước và trộn đều<br>
+                                                        Tạt vào bể ương.<br>
+                                                        Lưu ý không dùng máy xay khuấy trộn và làm đông lạnh sản
+                                                        phẩm.</span><br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                            </div>
+
+                                            <div class="col-md-12 text-center">
+                                                <div class="contact">
+                                                    <h5>Cần thêm thông tin, vui lòng gọi: </h5>
+                                                    <div class="button">
+                                                        <a class="btn btn-success" href="javascript:"
+                                                            style="color: white">
+                                                            <i class="fa fa-phone"></i>
+                                                            <span>0909 123 456</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+                        <div class="ff-box">
+                            <div class="header red">
+                                <h3>CÔNG TY THÀNH VIÊN</h3>
+                            </div>
+                            <div class="body">
+                                <div class="imgs">
+                                    <img src="http://vinhthinhbiostadt.com/upload/images/Members/180x75/2/VTBH-75x200px(1).jpg"
+                                        alt="">
+                                    <img src="http://vinhthinhbiostadt.com/upload/images/logo/180x75/2/logo_binhminh1.png"
+                                        alt="">
+                                    <img src="http://vinhthinhbiostadt.com/upload/images/logo/180x75/2/logo_tienphong1.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ff-box margin-t-24">
+                            <div class="header red">
+                                <h3>SẢN PHẨM TIÊU BIỂU</h3>
+                            </div>
+                            <div class="body">
+                                <div class="imgs">
+                                    <a href="products.html">
+                                        <img src="http://vinhthinhbiostadt.com/upload/files/Nong-nghiep/SAN-PHAM/252x196/2/3D-Halt.jpg"
+                                            alt="">
+
+                                        <div class="new">
+                                            <img src="assets/imgs/new_icon.gif" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="products.html">
+                                        <img src="http://vinhthinhbiostadt.com/upload/files/Nong-nghiep/SAN-PHAM/252x196/2/3D-Halt.jpg"
+                                            alt="">
+                                        <div class="new">
+                                            <img src="assets/imgs/new_icon.gif" alt="">
+                                        </div>
+                                    </a>
+                                    <a href="products.html">
+                                        <img src="http://vinhthinhbiostadt.com/upload/files/Nong-nghiep/SAN-PHAM/252x196/2/3D-Halt.jpg"
+                                            alt="">
+                                        <div class="new">
+                                            <img src="assets/imgs/new_icon.gif" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="ff-footer">
+            <div class="inner container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <strong>
+                            Công ty Cổ Phần Công Nghệ Tiêu Chuẩn Sinh Học Vĩnh Thịnh (VinhthinhBiostadt JSC)
+                        </strong>
+                        <p>Địa chỉ: Lô 23 đường Tân Tạo, KCN Tân Tạo, P. Tân Tạo, Q. Bình Tân, Tp. HCM</p>
+                        <p>ĐT: (028) 3754 2464 - (028) 3754 2467 - (028) 3754 2881 / Fax : (028) 3754 2466</p>
+                        <p>Email: contact@vinhthinhbiostadt.com</p>
+                        <p>Giấy phép kinh doanh Số 0307723087, cấp ngày 12 tháng 03 năm 2009 <br />
+                            Nơi cấp: Sở Kế Hoạch & Đầu Tư Thành phố Hồ Chí Minh.</p>
+
+                        <div class="links">
+                            <a href="javascript:" class="link">
+                                Chính sách bảo mật thông tin khách hàng
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <p>
+                            <span class="bg bg-green color green">
+                                <span class="dot green"></span>
+                                Online: <strong>200</strong>
+                            </span>
+                        </p>
+                        <p>
+                            Lượt truy cập: <strong>1.000.000</strong></p>
+                        <p>
+                            <img style="max-width: 180px" src="assets/imgs/dathongbao.png">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="ff-loading">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/blazy.min.js"></script>
+    <script src="assets/js/mobile-detect.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.zoom.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
